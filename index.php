@@ -16,10 +16,36 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- meeee line ekai athara-->
 
-
-    <!-- meeee line ekai athara -->
+<!-- start navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a href="#page-top" class="navbar-brand">RDProjects</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a class="nav-link" href="#page-top">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#Order">Order</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
 
 <!-- adding boostrap js link -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
